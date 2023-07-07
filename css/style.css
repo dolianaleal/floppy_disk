@@ -1,0 +1,50 @@
+h1 {
+    color: blue;
+    font-family: 'Roboto Slab',
+    serif;
+}
+
+.verde {
+    color: green;
+}
+
+footer {
+    font-size: 25px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+body {
+    background-color: bisque;
+    background-image: url("../img/rap_backg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box {
+    background-color: bisque;
+    width: 150px; 
+    height: 150px;
+    border: 1px;
+
+} 
+
+.cajaprincipal {
+    background-color: bisque;
+    border: 2px solid black;
+    width: 100%;
+    height: 620%;
+
+}
+
+.cajita {
+    background-color: grey;
+    border: 1px solid black;
+    width: 200px;
+    height: 240px;
+    display: inline-block;
+}
