@@ -19,7 +19,7 @@ li {
 
 body {
     background-color: bisque;
-    background-image: url("../img/rap_backg.jpg");
+    /* background-image: url("../img/rap_backg.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -32,7 +32,7 @@ body {
     border: 1px rgb(0, 182, 39) solid;
     /* border-bottom: solid 5px black; */
     border-radius: 10px;
-    margin: 50px 30px 25px 5px;
+    margin: 50px 100px 100px 100px;
     padding: 150px 50px;
 
 
@@ -41,7 +41,7 @@ body {
 .cajaPrincipal {
     background-color:#6dff33;
     border: 2px solid black;
-    width: 100%;
+    width: 200%;
     height: 620px;
 
 }
