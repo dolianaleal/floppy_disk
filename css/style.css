@@ -1,11 +1,11 @@
 h1 {
-    color: blue;
+    color: black;
     font-family: 'Roboto Slab',
     serif;
 }
 
-.verde {
-    color: green;
+.black {
+    color: black;
 }
 
 footer {
@@ -26,25 +26,35 @@ body {
 }
 
 .box {
-    background-color: bisque;
+    background-color: #F5F2B8;
     width: 150px; 
     height: 150px;
-    border: 1px;
+    border: 1px rgb(0, 182, 39) solid;
+    /* border-bottom: solid 5px black; */
+    border-radius: 10px;
+    margin: 50px 30px 25px 5px;
+    padding: 150px 50px;
+
 
 } 
 
-.cajaprincipal {
-    background-color: bisque;
+.cajaPrincipal {
+    background-color:#6dff33;
     border: 2px solid black;
     width: 100%;
-    height: 620%;
+    height: 620px;
 
 }
 
-.cajita {
+ .cajita {
     background-color: grey;
     border: 1px solid black;
     width: 200px;
-    height: 240px;
+    height: 200px;
     display: inline-block;
-}
+} 
+
+
+.usoDisplay {
+    display: block;
+} 
