@@ -78,7 +78,30 @@ body {
     height: 600px;
     border: 3px black solid;
     margin: auto;
+    /* Aplicamos Flexbox */
+    display: flex;
+
+    /* Se puede acomodar en columns or rows */
+    flex-direction: row;
+    /* Me permite indicar en que dirección se acomodan mis items hijos, por default viene en row */
+    flex-wrap: wrap;
+    /* me permit trabajar con diseños multilineas - wrap */
+    /* flex-flow: es una forma abreviada de las ultimas dos propiedades */
+
+    /* flex-flow: column wrap; */
+
+    /* justify-content */
+    /* si flex-direction es row, ordena los elemntos hijos en el eje horizontal */
+    justify-content: flex-end;
+    /* eje horizontal */
+
+    /* -----eje vertical */
+    /* ALIGN-ITEMS */
+    
+    align-items: flex-end;
+
 }
+
 
 .hijoFlex {
     background-color: chocolate;
@@ -92,4 +115,18 @@ body {
     font-size: 30px;
     color: black;
     text-transform: uppercase;
+}
+
+/* Ejemplo NAVBAR */
+
+
+.logo {
+    width: 250px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
