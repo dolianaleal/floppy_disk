@@ -122,14 +122,14 @@ body {
 
 .noventa {
     width: 250px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 10px;
     background-color: black;
     
 }
@@ -140,8 +140,12 @@ ul {
 
 li a {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+header {
+    display: flex;
 }
