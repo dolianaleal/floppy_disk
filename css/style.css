@@ -81,7 +81,7 @@ body {
     /* Aplicamos Flexbox */
     display: flex;
 
-    /* Se puede acomodar en columns or rows */
+    /* se puede acomodar en columns or rows */
     flex-direction: row;
     /* Me permite indicar en que dirección se acomodan mis items hijos, por default viene en row */
     flex-wrap: wrap;
