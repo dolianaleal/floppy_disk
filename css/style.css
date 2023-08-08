@@ -57,6 +57,7 @@ header {
 
 ul {
     list-style: none;
+    font-weight: bolder;
 }
 
 li,
