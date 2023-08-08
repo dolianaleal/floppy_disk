@@ -82,8 +82,8 @@ a:visited {
 
 
 footer {
-    font-size: 25p;
-    grid-area: pie;
+    font-size: 25px;
+    grid-area: footer;
 }
 
 section {
