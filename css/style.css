@@ -72,6 +72,9 @@ a {
     text-decoration: none;
 }
 
+
+
+/* pseudoclases */
 a:link {
     color: rgb(76, 0, 207);
 }
@@ -80,7 +83,7 @@ a:visited {
     color: black;
 }
 
-
+/* footer */
 footer {
     font-size: 25px;
     grid-area: footer;
@@ -127,4 +130,14 @@ nav {
 main {
     background-color: antiquewhite;
     grid-area: main;
+}
+
+/* pseudoclases */
+.item:hover { 
+    color: crimson;
+}
+
+/* Focus */
+input:focus {
+    background-color: chartreuse;
 }
