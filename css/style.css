@@ -10,7 +10,7 @@ li {
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255); 
     background-size: cover;
     text-align: center;
 }
@@ -29,7 +29,7 @@ body {
     border: 2px solid black;
     width: 300px;
     height: 300px;
-    background-color: rgb(67, 255, 95);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
 }
 
@@ -50,7 +50,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 40px 30px;
-    background-color: rgb(33, 255, 63);
+    background-color: rgb(7, 105, 210);
     position: sticky;
     top: 0;
     grid-area: header;
@@ -122,11 +122,6 @@ section {
         font-size: 9px;
 } */
 
-nav {
-    background-color: #ffffff;
-    grid-area: nav;
-}
-
 main {
     background-color: antiquewhite;
     grid-area: main;
@@ -140,4 +135,18 @@ main {
 /* Focus */
 input:focus {
     background-color: chartreuse;
+}
+
+.card {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* background card */
+.bg-dark {
+    background-color: black;
+}
+
+.btn-primary {
+    color: chartreuse;
+
 }
