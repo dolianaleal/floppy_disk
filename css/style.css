@@ -12,6 +12,10 @@ li {
   position: sticky;
 }
 
+h1 {
+  color: white;
+}
+
 body {
   background-color: rgb(10, 116, 239);
   background-size: cover;

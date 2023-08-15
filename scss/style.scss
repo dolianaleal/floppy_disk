@@ -1,3 +1,7 @@
+$colorHUno: white;
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
 
 .googlefont {
@@ -12,6 +16,10 @@ li {
 .stickypos {
     position: sticky;
 
+}
+
+h1 {
+    color: $colorHUno;
 }
 
 
