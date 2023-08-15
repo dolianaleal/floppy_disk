@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");
-.bgbodyproducts {
-  background-image: url(shotdl2.png);
-}
-
 .googlefont {
   font-family: "Open Sans", sans-serif;
 }
@@ -24,6 +20,14 @@ body {
 
 .bgbody {
   background-image: url("../img/shot_dl1.png");
+}
+
+.bgbodyproducts {
+  background-image: url("../img/shot_dl3.png");
+}
+
+.bgmultimedia {
+  background-image: url("../img/shot_dl2.png");
 }
 
 .item {
@@ -55,14 +59,11 @@ header {
   top: 0;
   grid-area: header;
 }
-
-ul {
+header ul {
   list-style: none;
   font-weight: bolder;
 }
-
-li,
-a {
+header li, header a {
   color: rgb(76, 0, 207);
   font-size: 20px;
   font-weight: 200;
@@ -98,6 +99,12 @@ footer {
   bottom: 0;
   width: 100%;
   height: 40px;
+}
+
+.sizecar {
+  width: 100%;
+  padding: 0;
+  margin-top: 0px;
 }
 
 /* Responsive 
