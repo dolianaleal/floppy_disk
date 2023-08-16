@@ -111,6 +111,12 @@ footer {
   margin-top: 0px;
 }
 
+.imgcards {
+  height: 500px;
+  width: 500px;
+  object-fit: contain;
+}
+
 /* Responsive 
 @media (max-width:500px) {
     .title {
