@@ -78,6 +78,16 @@ header h3 {
   color: white;
 }
 
+p {
+  color: rgb(255, 255, 255);
+}
+
+.wcolor {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-style: italic;
+}
+
 /* pseudoclases */
 a:link {
   color: rgb(76, 0, 207);
@@ -121,6 +131,13 @@ footer {
 
 .cardtext {
   color: white;
+}
+
+.btnpos {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
 
 /* Responsive 
