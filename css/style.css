@@ -71,11 +71,12 @@ header li, header a {
   /* text-transform: uppercase; */
   text-decoration: none;
 }
-header h1 {
-  color: white;
-}
 header h3 {
   color: white;
+}
+
+.shadowtext {
+  text-shadow: 2px 2px #f0f002;
 }
 
 p {
@@ -137,7 +138,7 @@ footer {
   bottom: 0;
   margin: auto;
   width: 50%;
-  border: 3px solid green;
+  border: 3px solid rgb(255, 244, 43);
   background-color: yellow;
   padding: 10px;
   font-weight: bolder;
