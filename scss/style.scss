@@ -2,12 +2,15 @@ $colorHUno: white;
 $colorHTres: white;
 $colorParrafo: rgb(255, 255, 255);
 
+@import "../node_modules/bootstrap/scss/functions";
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
 
 .googlefont {
     font-family: 'Open Sans', sans-serif;
+   
 }
 
 li {
@@ -15,13 +18,9 @@ li {
     display: inline;
 }
 
-.stickypos {
-    position: sticky;
-
-}
 
 body {
-    background-color: rgb(10, 116, 239);
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     text-align: center;
 }
@@ -68,7 +67,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 40px 30px;
-    background-color: rgb(7, 105, 210);
+    background-color: rgb(193, 210, 7);
     position: sticky;
     top: 0;
     grid-area: header;
@@ -78,7 +77,8 @@ header {
         font-weight: bolder;
     }
 
-    li, a {
+    li,
+    a {
         color: rgb(76, 0, 207);
         font-size: 20px;
         font-weight: 200;
@@ -106,8 +106,8 @@ p {
     color: rgb(0, 0, 0);
     font-weight: bolder;
     font-style: italic;
-   
-  
+
+
 }
 
 /* pseudoclases */
@@ -130,45 +130,69 @@ section {
     justify-content: center;
 }
 
+.boton{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
 /* footer */
 footer {
+   
     font-size: 25px;
-    position: static;
-    bottom: 0;
+    position: sticky;
+    bottom: 0%;
     width: 100%;
     height: 40px;
 
 }
 
-.sizecar {
-    width:100%;
-    padding: 0;
-    margin-top: 0px;
-}
+
+
+
+
 
 .imgcards {
-    height:500px;
-    width:500px;
+    height: 500px;
+    width: 500px;
     object-fit: contain;
- }
+}
 
 
- .cardtext {
+.cardtext {
     color: white;
- }
+}
+
+.btncolor {
+    color: #f0f002;
+}
 
 .btnpos {
-       
-        bottom: 0;
-        margin: auto;
-        width: 50%;
-        border: 3px solid rgb(255, 244, 43);
-        background-color: yellow;
-        padding: 10px;
-        font-weight: bolder;
-        width: 100%;
-        height: 40px;
+
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(255, 244, 43);
+    background-color: yellow;
+    padding: 10px;
+    font-weight: bolder;
+    width: 100%;
+    height: 40px;
 }
+
+.testform {
+    width: 60%;
+    height: 100%;
+    margin: 16px 32px;
+    position: 0;
+    padding: 16px 32px;
+    text-align: center;
+}
+
 
 
 /* Responsive 
