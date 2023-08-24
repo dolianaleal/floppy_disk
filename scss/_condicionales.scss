@@ -1,0 +1,56 @@
+// Si algo es verdadero, ejecuto las lines de código
+
+/* CONDICIONALES */
+
+ 
+
+/* si algo es verdadero ejecuto las lineas de código */
+
+ 
+
+// @if ($vista == escritorio) {
+// 
+    // body {
+// 
+        // background-image: url(..//img/shot_dl2.png);
+// 
+    // }
+// 
+// }@else if ($vista == movil) {
+// 
+    // body {
+// 
+        // background-image: url(..//img/shot_dl3.png);
+// 
+    // }
+// 
+// }@else {
+// 
+    // body {
+// 
+        // background-image: url(..//img/shot_dl1.png);
+// 
+    // }
+// 
+// }
+// 
+//  
+// 
+// /* Otra forma de escribirlo: */    
+// body {
+ 
+    // @if($vista == escritorio) {
+
+        // background-color: red;
+
+    // }@else if ($vista == movil) {
+ 
+        // background-color: darkgreen;
+ 
+    // }@else {
+ 
+        // background-color: aqua;
+ 
+    // }
+ 
+// }
