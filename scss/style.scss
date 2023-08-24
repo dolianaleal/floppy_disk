@@ -1,7 +1,6 @@
-$colorHUno: white;
-$colorHTres: white;
-$colorParrafo: rgb(255, 255, 255);
 
+
+@import "variables";
 
 @import "..//node_modules/bootstrap/scss/functions";
 
@@ -128,7 +127,7 @@ section {
     justify-content: center;
 }
 
-.boton{
+.boton {
     margin-top: 10px;
     padding: 10px;
 }
@@ -162,6 +161,8 @@ footer {
 .btncolor {
     background-color: #f0f002;
     font-weight: bolder;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 

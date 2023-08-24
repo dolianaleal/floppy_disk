@@ -69,7 +69,7 @@ header h3 {
 }
 
 p {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .wcolor {
@@ -126,6 +126,8 @@ footer {
 .btncolor {
   background-color: #f0f002;
   font-weight: bolder;
+  margin-top: 10px;
+  padding: 10px;
 }
 
 .boldtext {
