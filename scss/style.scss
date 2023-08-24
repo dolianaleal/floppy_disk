@@ -2,6 +2,7 @@ $colorHUno: white;
 $colorHTres: white;
 $colorParrafo: rgb(255, 255, 255);
 
+
 @import "..//node_modules/bootstrap/scss/functions";
 
 
@@ -17,6 +18,12 @@ $colorParrafo: rgb(255, 255, 255);
     color: black;
       
 }
+
+.textow {
+    color: white;
+    font-weight: bolder;
+}
+
 
 li {
     list-style: none;
@@ -46,7 +53,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 40px 30px;
-    background-color: rgb(146, 79, 255);
+    background-color: rgb(38, 93, 222);
     position: sticky;
     top: 0;
     grid-area: header;
@@ -60,7 +67,7 @@ header {
 
     li,
     a {
-        color: rgb(76, 0, 207);
+        color: rgb(3, 21, 56);
         font-size: 20px;
         font-weight: 200;
         text-decoration: none;
@@ -84,6 +91,12 @@ header {
 }
 
 
+.shadowtblack {
+    text-shadow: 2px 2px #000000;
+    text-transform: uppercase; 
+}
+
+
 p {
     color: $colorParrafo;
 }
@@ -104,6 +117,7 @@ a:visited {
 }
 
 .postatic {
+    display: grid;
     position: fixed;
 }
 
@@ -118,10 +132,6 @@ section {
     margin-top: 10px;
     padding: 10px;
 }
-
-
-
-
 
 
 /* footer */
@@ -151,7 +161,14 @@ footer {
 
 .btncolor {
     background-color: #f0f002;
+    font-weight: bolder;
 }
+
+
+.boldtext {
+    font-weight: bolder;
+}
+
 
 .btnpos {
 

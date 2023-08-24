@@ -7,6 +7,11 @@
   color: black;
 }
 
+.textow {
+  color: white;
+  font-weight: bolder;
+}
+
 li {
   list-style: none;
   display: inline;
@@ -30,7 +35,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 40px 30px;
-  background-color: rgb(146, 79, 255);
+  background-color: rgb(38, 93, 222);
   position: sticky;
   top: 0;
   grid-area: header;
@@ -42,7 +47,7 @@ header ul {
 }
 header li,
 header a {
-  color: rgb(76, 0, 207);
+  color: rgb(3, 21, 56);
   font-size: 20px;
   font-weight: 200;
   text-decoration: none;
@@ -56,6 +61,11 @@ header h3 {
 
 .shadowtext {
   text-shadow: 2px 2px #f0f002;
+}
+
+.shadowtblack {
+  text-shadow: 2px 2px #000000;
+  text-transform: uppercase;
 }
 
 p {
@@ -78,6 +88,7 @@ a:visited {
 }
 
 .postatic {
+  display: grid;
   position: fixed;
 }
 
@@ -114,6 +125,11 @@ footer {
 
 .btncolor {
   background-color: #f0f002;
+  font-weight: bolder;
+}
+
+.boldtext {
+  font-weight: bolder;
 }
 
 .btnpos {
