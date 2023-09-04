@@ -96,7 +96,7 @@ header {
 
 
 .shadowtblack {
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px #ffffff;
     text-transform: uppercase; 
 }
 
@@ -142,11 +142,10 @@ section {
 footer {
     
     font-size: 25px;
-    // position: sticky;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 40px;
-
+    text-align: center;
 }
 
 
